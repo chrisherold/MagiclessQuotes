@@ -12,8 +12,6 @@ class RemoveMagicFromMagicCommand(sublime_plugin.TextCommand):
             [u'[‘’]', u'\''],
             [u'[“”]', u'"'],
             [u'[…]', u'...'],
-            [u'[—]', u'---'],
-            [u'[–]', u'--'],
             [u'[•]', u'-']
         ]
 
